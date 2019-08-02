@@ -11,7 +11,7 @@ func challange3(string1: String, string2: String) -> Bool {
     var tempararyString = string1
     
     for char in string2 {
-        if let index = tempararyString.index(of: char) {
+        if let index = tempararyString.firstIndex(of: char) {
             tempararyString.remove(at: index)
         } else {
             return false
