@@ -21,8 +21,6 @@ func challange5(input: String, count: Character) -> Int {
         }
     }
     
-    let heighestValue = dictionaty.values.max()
-    
     for (character, charCount) in dictionaty {
         if count == character {
             return charCount
